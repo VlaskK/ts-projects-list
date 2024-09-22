@@ -1,0 +1,45 @@
+/* RepoInfo.css */
+.repo-info {
+    background-color: #f9f9f9; /* Цвет фона карточки */
+    border: 1px solid #ddd; /* Рамка вокруг карточки */
+    border-radius: 8px; /* Скругление углов */
+    padding: 15px; /* Внутренние отступы */
+    margin: 15px 0; /* Отступы между карточками */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень для глубины */
+    transition: transform 0.2s ease; /* Плавный переход при наведении */
+}
+
+.repo-info:hover {
+    transform: scale(1.02); /* Эффект увеличения при наведении */
+}
+
+.repo-name {
+    font-size: 1.5em; /* Размер шрифта для названия репозитория */
+    margin-bottom: 10px; /* Отступ снизу */
+    color: #333; /* Цвет текста */
+}
+
+.repo-description {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.repo-stars {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.repo-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.repo-link:hover {
+    background-color: #2980b9;
+}

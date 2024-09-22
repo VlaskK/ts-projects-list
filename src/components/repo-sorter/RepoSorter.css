@@ -1,0 +1,32 @@
+.repo-sorter {
+    display: flex;
+    justify-content: center; /* Центрируем кнопки */
+    margin: 20px 0; /* Отступ сверху и снизу */
+}
+
+.sort-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sort-button:hover {
+    background-color: #2980b9;
+}
+
+.sort-button:active {
+    transform: scale(0.95);
+}
+
+.reset-button {
+    background-color: #e74c3c;
+}
+
+.reset-button:hover {
+    background-color: #c0392b;
+}
